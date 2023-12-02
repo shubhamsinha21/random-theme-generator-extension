@@ -1,14 +1,15 @@
-# Random Color/Theme Generator for Adobe Illustrator  
+# Random Theme Generator for Adobe Illustrator  
   
-This is a 3rd party adobe illustrator plugin/extension which uses CEP & Extendscript under the hood to communicate with the host app. Frontend is bootstrapped with vite-react, uses typescript and vanilla CSS for styling.  
-  
-## Frontend  
-  
-Can be found inside the client folder. Do note the session folder - this is because CSInterface.js provided with CEP/Extendscript cannot be normally used with react or any other frontend library. You have to do a workaround/patch to expose the CSI package to the window's session object, after which you can instantiate CSI inside react for communication b/w your frontend and the host app (extendscript). 
-  
-Session folder and its code is NOT mine, I just got it somewhere and used it just so I could instantiate the CSI object.  
-  
-Client folder on the other hand, is mine. More information inside client/README.md.  
+Introducing 🥁 a sophisticated Adobe Illustrator plugin/extension. This innovative tool seamlessly leverages the power of CEP (Common Extensibility Platform) and Extendscript to establish seamless communication with the host application. The frontend, elegantly built with Vite-React, embraces the efficiency of TypeScript for robust development, while its visual appeal is meticulously shaped with the timeless charm of vanilla CSS. Elevate your design experience with this cutting-edge solution that effortlessly combines creativity and professionalism.
+
+## Features
+
+1. Generates random color palettes with 5 colors each.
+2. Applies random themes to your Adobe Illustrator document, including color, opacity, and text options.
+3. Allows you to select a color from the palette and apply it to your document.
+4. Toggles between RGB and HSL color value display.
+5. Exports your document as AI, JPEG, or PNG.
+
   
 ## Release  
   
