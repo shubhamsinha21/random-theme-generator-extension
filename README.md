@@ -1,4 +1,4 @@
-# Random Theme Generator for Adobe Illustrator 🌟
+# Build a 3rd Party Extension (Random Theme Generator) for Adobe Illustrator 🌟
   
 Introducing 🥁 a sophisticated Adobe Illustrator plugin/extension. This innovative tool🤖 seamlessly leverages the power of CEP (Common Extensibility Platform) and Extendscript to establish seamless ☑️communication with the host application. The frontend, elegantly built with Vite-React, embraces the efficiency of TypeScript for robust development, while its visual📹appeal is meticulously shaped with the timeless charm of vanilla CSS. Elevate your design experience with this cutting-edge solution that effortlessly combines creativity and professionalism.
 
