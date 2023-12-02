@@ -18,18 +18,19 @@ Introducing 🥁 a sophisticated Adobe Illustrator plugin/extension. This innova
 4. Select the desired file type (AI, JPEG, or PNG) and click the "Export" button to export your document.
 5. Check the "Show Theme Values" checkbox to display the RGB, HSL, and theme values for the selected color.
 
-## Code Structure 🪜
+## Project Structure 🪜
 
 ![theme](https://github.com/shubhamsinha21/random-theme-generator-extension/assets/84564814/4bb536aa-07ac-4aae-92d4-a62476082f49)
 
+### Code Struture of App.js file of client 
 
-1. App.js: The main component of the application.
-2. randomizeColors.js: A function that generates a random array of 3 RGB values.
-3. randomizePalette.js: A function that generates a random palette of 5 colors.
-4. randomizeTheme.js: A function that applies a random theme to the document.
-5. colorDoc.js: A function that sets the active color.
-6. handleText.js: A function that toggles between RGB and HSL color value display.
-7. saveFile.js: A function that exports the document.
+  - App.js: The main component of the application.
+  - randomizeColors.js: A function that generates a random array of 3 RGB values.
+  - randomizePalette.js: A function that generates a random palette of 5 colors.
+  - randomizeTheme.js: A function that applies a random theme to the document.
+  - colorDoc.js: A function that sets the active color.
+  - handleText.js: A function that toggles between RGB and HSL color value display.
+  - saveFile.js: A function that exports the document.
   
 Make sure you have node installed prior to executing this command -  
   > `node createPackage.js`  
